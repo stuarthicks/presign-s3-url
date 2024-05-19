@@ -48,7 +48,7 @@ func main() {
 		Key:    aws.String(u.Path),
 	})
 
-	signedURL, err := req.Presign(time.Duration(hours * int(time.Minute) * 24))
+	signedURL, err := req.Presign(time.Duration(int64(hours) * int64(time.Minute) * int64(24)))
 	if err != nil {
 		log.Fatal("failed to sign URL", err.Error())
 	}
