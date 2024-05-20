@@ -55,7 +55,7 @@ brews:
       system "#{bin}/presign-s3-url -h"
     repository:
       owner: stuarthicks
-      name: homebrew-brews
+      name: homebrew-tap
     directory: Formula
     commit_author:
       name: goreleaserbot
