@@ -60,3 +60,17 @@ brews:
     commit_author:
       name: goreleaserbot
       email: bot@goreleaser.com
+
+scoops:
+  -
+    name: presign-s3-url
+    homepage: "https://github.com/stuarthicks/presign-s3-url"
+    description: "Presign S3 URLs"
+    license: "MIT"
+    directory: bucket
+    repository:
+      owner: stuarthicks
+      name: scoop-bucket
+    commit_author:
+      name: goreleaserbot
+      email: bot@goreleaser.com
